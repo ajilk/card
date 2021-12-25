@@ -1,0 +1,27 @@
+{
+  "name": "ajilk",
+  "version": "1.0.0",
+  "description": "Azimjon Ilkhomov's business card",
+  "main": "./bin/card.js",
+  "bin": {
+    "ajilk": "./bin/card.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajilk/card.git"
+  },
+  "author": "Azimjon Ilkhomov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajilk/card/issues"
+  },
+  "homepage": "https://github.com/ajilk/card#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0"
+  }
+}
